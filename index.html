@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <!-- FAVIVON -->
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/png">
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- APP CSS -->
+    <link rel="stylesheet" href="./app.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="main-container">
+            <div class="main-content">
+                <div class="slide-container" style="background-image: url(./images/phone-frame.png);">
+                    <div class="slide-content" id="slide-content">
+                        <img src="./images/slide (1).png" alt="slide image" class="active">
+                        <img src="./images/slide (2).png" alt="slide image">
+                        <img src="./images/slide (3).png" alt="slide image">
+                        <img src="./images/slide (4).png" alt="slide image">
+                    </div>
+                </div>
+                <div class="form-container">
+                    <div class="form-content box">
+                        <div class="logo">
+                            <img src="./images/logo-light.png" alt="Instagram logo" class="logo-light">
+                            <img src="./images/logo-dark.png" alt="Instagram logo" class="logo-dark">
+                        </div>
+                        <div class="signin-form" id="signin-form">
+                            <div class="form-group">
+                                <div class="animate-input">
+                                    <span>
+                                        Numero di telefono, nome utente o e-mail
+                                    </span>
+                                    <input type="text">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="animate-input">
+                                    <span>
+                                        Password
+                                    </span>
+                                    <input type="password">
+                                    <button>Mostra</button>
+                                </div>
+                            </div>
+                            <div class="btn-group">
+                                <button class="btn-login" id="signin-btn" disabled>
+                                    Accedi
+                                </button>
+                            </div>
+                            <div class="divine">
+                                <div></div>
+                                <div>O</div>
+                                <div></div>
+                            </div>
+                            <div class="btn-group">
+                                <button class="btn-fb">
+                                    <img src="./images/facebook-icon.png" alt="">
+                                    <span>Accedi con Facebook</span>
+                                </button>
+                            </div>
+                            <a href="#" class="forgot-pw">Password dimenticata?</a>
+                        </div>
+                    </div>
+                    <div class="box goto">
+                        <p>
+                            Non hai un account?
+                            <a href="#">Iscriviti</a>
+                        </p>
+                    </div>
+
+                    <div class="app-download">
+                        <p>Scarica l'applicazione.</p>
+                        <div class="store-link">
+                            <a href="#">
+                                <img src="./images/googleplay-button.png" alt="google play">
+                            </a>
+                            <a href="#">
+                                <img src="./images/microsoft-button.png" alt="microsoft store">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="links">
+                <a href="#">Meta</a>
+                <a href="#">Informazioni</a>
+                <a href="#">Blog</a>
+                <a href="#">Lavora con noi</a>
+                <a href="#">Assistenza</a>
+                <a href="#">API</a>
+                <a href="#">Privacy</a>
+                <a href="#">Condizioni</a>
+                <a href="#">Account più popolari</a>
+                <a href="#">Luoghi</a>
+                <a href="#">Instagram Lite</a>
+                <a href="#">Caricamento dei contatti e non-utenti</a>
+                <a href="#">Avviso sulla privacy per i contenuti digitali collezionabili</a>
+                <a href="#" id="darkmode-toggle">Dark Mode</a>
+            </div>
+            <div class="copyright">
+                <select class="language" label="Cambia la lingua di visualizzazione">
+                    <option value="af">Afrikaans</option>
+                    <option value="cs">Čeština</option>
+                    <option value="da">Dansk</option>
+                    <option value="de">Deutsch</option>
+                    <option value="el">Ελληνικά</option>
+                    <option value="en">English</option>
+                    <option value="en-gb">English (UK)</option>
+                    <option value="es">Español (España)</option>
+                    <option value="es-la">Español</option>
+                    <option value="fi">Suomi</option>
+                    <option value="fr">Français</option>
+                    <option value="id">Bahasa Indonesia</option>
+                    <option value="it">Italiano</option>
+                    <option value="ja">日本語</option>
+                    <option value="ko">한국어</option>
+                    <option value="ms">Bahasa Melayu</option>
+                    <option value="nb">Norsk</option>
+                    <option value="nl">Nederlands</option>
+                    <option value="pl">Polski</option>
+                    <option value="pt-br">Português (Brasil)</option>
+                    <option value="pt">Português (Portugal)</option>
+                    <option value="ru">Русский</option>
+                    <option value="sv">Svenska</option>
+                    <option value="th">ภาษาไทย</option>
+                    <option value="tl">Filipino</option>
+                    <option value="tr">Türkçe</option>
+                    <option value="zh-cn">中文(简体)</option>
+                    <option value="zh-tw">中文(台灣)</option>
+                    <option value="bn">বাংলা</option>
+                    <option value="gu">ગુજરાતી</option>
+                    <option value="hi">हिन्दी</option>
+                    <option value="hr">Hrvatski</option>
+                    <option value="hu">Magyar</option>
+                    <option value="kn">ಕನ್ನಡ</option>
+                    <option value="ml">മലയാളം</option>
+                    <option value="mr">मराठी</option>
+                    <option value="ne">नेपाली</option>
+                    <option value="pa">ਪੰਜਾਬੀ</option>
+                    <option value="si">සිංහල</option>
+                    <option value="sk">Slovenčina</option>
+                    <option value="ta">தமிழ்</option>
+                    <option value="te">తెలుగు</option>
+                    <option value="vi">Tiếng Việt</option>
+                    <option value="zh-hk">中文(香港)</option>
+                    <option value="bg">Български</option>
+                    <option value="fr-ca">Français (Canada)</option>
+                    <option value="ro">Română</option>
+                    <option value="sr">Српски</option>
+                    <option value="uk">Українська</option>
+                  </select>
+                  © 2022 Instagram from Meta
+            </div>
+        </div>
+    </div>
+
+    <!-- APP JS -->
+    <script src="./app.js"></script>
+
+</body>
+
+</html>
